@@ -21,6 +21,7 @@ export default function Background() {
   <button type="button" className={style.loginButton}>Login</button>
 </div>
 </div>
+
           <div className={style.topLeft}>
   <Image  
       src={TopLeft}
@@ -29,14 +30,19 @@ export default function Background() {
       height={450}
     />
  </div>
- 
+
  <div className={style.mid}>
+ 
      <Image  
       src={Mid}
       alt="Picture of the author"
       width={332}
       height={260}
     />
+    <div className={style.title}>Lorem ipsum 
+dolor sit amet.
+<button type="button" className={style.rmButton}>Login</button></div>
+
    </div>
    </div>
     <div className={style.containerB}>
