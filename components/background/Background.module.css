@@ -1,4 +1,63 @@
-.main { 
- color: red;
- 
+.leftB{
+    margin-top: 100px !important;
+}
+.right{
+
+}
+.rightMain{
+    margin-top: -245px;
+}
+.containerB{
+    display: flex;
+    justify-content: space-between;
+}
+.rightB{
+    margin-top: -268px;
+    margin-left: -116px;
+}
+.topLeft{
+margin-top: -100px;
+}
+.mid{
+    margin-top: 150px;
+
+}
+.containerT{
+display: flex;
+}
+.mainNav{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    padding: 0px 65px;
+}
+.logo{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+.anchor{
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+}
+.navbar{
+    margin-top: 10px;
+}
+.loginButton{
+    background: linear-gradient(90deg, #73E0A9 0%, #5B68DF 100%);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: poppins;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 7px 50px;
+    margin-left: 100px;
 }

@@ -9,8 +9,7 @@ export default function Home() {
         <meta name="description" content="Task" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-<Background />
-     <h1>task</h1>
+      <Background/>
     </div>
   )
 }
