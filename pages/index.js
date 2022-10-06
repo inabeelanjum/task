@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Background  from '../components/background/Background.js'
 import SectionTwo from '../components/sectionTwo/SectionTwo.js'
+import SectionThree from '../components/sectionThree/SectionThree.js'
+import Footer from '../components/Footer/Footer.js'
+
+
 
 export default function Home() {
   return (
@@ -12,6 +16,8 @@ export default function Home() {
       </Head>
       <Background/>
       <SectionTwo />
+      <SectionThree />
+      <Footer />
     </div>
   )
 }
