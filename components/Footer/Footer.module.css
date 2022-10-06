@@ -1,4 +1,91 @@
 .main { 
- color: red;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+height: 700px;
  
+}
+.svgBottom{
+    position: relative;
+    left:-50px;
+ 
+
+}
+.logo{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+.left p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 22px;
+    width: 450px;
+    color: white;
+}
+.logoHeading{
+    position: relative;
+    top: 550px;
+    z-index: 1;
+    margin-left: 50px;
+
+}
+.left{
+    
+}
+.right{
+display: flex;
+justify-content: space-around;
+margin:50px;
+}
+.company a{
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.products a{
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.products{
+width: 250px;
+}
+.company{
+    width: 250px;
+}
+.bgImage{
+    background: linear-gradient(90deg, #73E0A9 0%, #5B68DF 100%);
+    width: 45px;
+    height:45px;
+}
+.heading{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.rowOne{
+    display: flex;
+    justify-content: space-between;
+  
+    margin-top: 10;
+    margin: 30px 0px;
+}
+.icons{
+    margin-top: 10px;
+    width: 200px;
 }

@@ -1,5 +1,8 @@
 .main { 
-padding: 0px 50px
+padding: 0px 50px;
+max-width: 1360px;
+width: 100%;
+margin: auto;
  
 }
 .boxMain{

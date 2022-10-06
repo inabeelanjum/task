@@ -4,9 +4,8 @@ import Mid from "../../public/Mid.svg";
 import RightT from "../../public/RightT.svg";
 import RightB from "../../public/RightB.svg";
 import LeftB from "../../public/LeftB.svg";
+import Image from 'next/image';
 
-
-import Image from 'next/image'
 export default function Background() {
     return (
       <div className={style.main} >
