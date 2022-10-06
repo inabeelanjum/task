@@ -1,16 +1,17 @@
 .main { 
 display: flex;
 margin: 200px auto;
-max-width: 1360px;
+max-width: 1920px;
 width: 100%;
  
 }
 .left{
     width: 50%;
+    margin-left: 50px;
 }
 .right{
 margin: auto;
-margin-right: 0px;
+margin-right: 50px;
 }
 .title{
     font-size: 36px;
