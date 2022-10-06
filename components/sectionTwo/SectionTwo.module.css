@@ -1,0 +1,42 @@
+.main { 
+display: flex;
+margin: 200px 50px;
+ 
+}
+.left{
+    width: 50%;
+}
+.right{
+margin: auto;
+margin-right: 0px;
+}
+.title{
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    width: 500px;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Poppins';
+    width: 640px;
+}
+.rmButton{
+    background: linear-gradient(90deg, #73E0A9 0%, #5B68DF 100%);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: poppins;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 7px 50px;
+    margin-top: 20px;
+  
+}
+.plant{
+margin-top: -280px;
+}
+.plantB{
+    position:absolute;
+}

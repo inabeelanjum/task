@@ -9,7 +9,7 @@ import LeftB from "../../public/LeftB.svg";
 import Image from 'next/image'
 export default function Background() {
     return (
-      <div >
+      <div className={style.main} >
         <div className={style.containerT}>
         <div className={style.mainNav}>
   <div className={style.logo}>CHILLED GRAPE</div>
@@ -39,9 +39,9 @@ export default function Background() {
       width={332}
       height={260}
     />
-    <div className={style.title}>Lorem ipsum 
+    <h1 className={style.title}>Lorem ipsum 
 dolor sit amet.
-<button type="button" className={style.rmButton}>Login</button></div>
+<button type="button" className={style.rmButton}>Login</button></h1>
 
    </div>
    </div>
@@ -74,10 +74,7 @@ dolor sit amet.
     
    </div>
 </div>
-    
 
-  
-       <h1 className={style.main}>header background</h1>
       </div>
     )
   }
