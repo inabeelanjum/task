@@ -90,3 +90,33 @@ width: 250px;
     width: 200px;
     margin-right: 20px;
 }
+@media only screen and (max-width: 1380px) {
+    .products{
+        width: 200px;
+        }
+        .company{
+            width: 200px;
+        }
+        .main{
+            flex-direction: column;
+            align-items: inherit;
+        }
+}
+@media only screen and (max-width: 550px) {
+.logoHeading{
+    top: 450px;
+    margin-left: 10px;
+}
+
+}
+@media only screen and (max-width: 500px) {
+    .logoHeading{
+        top: 370px;
+        margin-left: 10px;
+    }
+    .logo p {
+        width:300px;
+        font-size: 18px;
+    }
+    
+    }

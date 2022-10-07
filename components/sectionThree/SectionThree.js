@@ -19,7 +19,7 @@ export default function SectionThree() {
         setLoading(false)
       })
   }, [])
-  console.log(data)
+  console.log('data' ,data)
  
   if (isLoading) {
     console.log(isLoading);
@@ -75,8 +75,7 @@ export default function SectionThree() {
            <h4>£{data[0][2]?.price}</h4>
          </div>
        </div>
-      </div>
-      <div className={style.rowOne}>
+     
        <div className={style.boxMain}>
          <div className={style.boxInside}>
          <Image  

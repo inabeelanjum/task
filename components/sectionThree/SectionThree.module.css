@@ -1,9 +1,9 @@
 .main { 
     padding: 0px 50px;
-    max-width: 1360px;
+    max-width: 1600px;
     width: 100%;
     margin: auto;
-     
+    box-sizing: border-box;
     }
     .boxMain{
         width: 370px;
@@ -54,3 +54,8 @@
         font-weight: 600;
     
     }
+    @media only screen and (max-width: 900px) {
+    .rowOne{
+        justify-content: space-around;
+    }
+      }

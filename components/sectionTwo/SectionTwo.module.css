@@ -1,7 +1,7 @@
 .main { 
 display: flex;
 margin: 200px auto;
-max-width: 1920px;
+max-width: 1600px;
 width: 100%;
  
 }
@@ -17,13 +17,15 @@ margin-right: 70px;
     font-size: 36px;
     font-family: 'Poppins';
     font-weight: 700;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 .paragraph{
     font-weight: 400;
     font-size: 24px;
     font-family: 'Poppins';
-    width: 640px;
+    max-width: 640px;
+    width: 100%;
 }
 .rmButton{
     background: linear-gradient(90deg, #73E0A9 0%, #5B68DF 100%);
@@ -43,3 +45,21 @@ margin-top: -280px;
 .plantB{
     position:absolute;
 }
+@media only screen and (max-width: 1200px) {
+    .main{
+   flex-direction: column;
+   align-items: center;
+      
+  }
+  .right{
+    margin:auto;
+    margin-top: 200px;
+  }
+  }
+  @media only screen and (max-width: 800px) {
+    .main{
+   margin-top: 100px;
+      
+  }
+  
+  }

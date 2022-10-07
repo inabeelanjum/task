@@ -87,7 +87,46 @@ display: flex;
     padding: 12px 95px;
    
 }
-@media only screen and (max-width: 1200px) {
-  
+
+@media only screen and (max-width: 1100px) {
+  .loginButton{
+    margin-left: 0px;
     
 }
+}
+@media only screen and (max-width: 950px) {
+    .navbar{
+      display: none;
+      
+  }
+  .title{
+    margin-left: -400px;
+  }
+  .right{
+    display: none;
+  }
+  }
+  @media only screen and (max-width: 700px) {
+  
+  .title{
+    margin-left: -240px;
+  }
+ 
+  }
+  @media only screen and (max-width: 650px) {
+  
+    .logo{
+      font-size: 24px;
+    }
+   
+    }
+    @media only screen and (max-width: 500px) {
+  
+        .logo{
+          font-size: 18px;
+        }
+        .mainNav{
+            padding: 0px 10px;
+        }
+       
+        }
